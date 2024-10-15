@@ -2,8 +2,8 @@ import jax
 from jax import numpy as jnp
 from jax import random as jr
 
-from src.ode.solver import RK4
-from src.ode.solver import Solver
+from lib.solver import RK4
+from lib.solver import Solver
 
 """
 Reference from: 

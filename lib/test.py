@@ -7,11 +7,11 @@ import jax
 import jax.numpy as jnp
 import jax.random as jr
 
-from src.ode.solver import EULER
-from src.ode.solver import PC
-from src.ode.solver import RK2
-from src.ode.solver import RK4
-from src.ode.solver import Solver
+from lib.solver import EULER
+from lib.solver import PC
+from lib.solver import RK2
+from lib.solver import RK4
+from lib.solver import Solver
 
 class TestSolver(unittest.TestCase):
     def setUp(self):
